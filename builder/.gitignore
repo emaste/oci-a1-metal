@@ -1,0 +1,9 @@
+*.qcow*
+efi.*
+efifat
+extract/
+mfs*
+mnt/
+mount
+src
+src/

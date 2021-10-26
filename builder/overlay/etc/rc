@@ -1,0 +1,46 @@
+#!/rescue/sh -x
+# doze a bit to let stuff settle
+sleep 5
+# go from zero to mounted iscsi volume in one glorious hack
+mount -u -o rw /
+mount -t tmpfs tmpfs /tmp
+
+## networking
+
+# extract networking info
+eval `dmesg | sed -E \
+    -e '/^NIC0:/!d' \
+    -e 's/NIC0: /export DHCP_/' \
+    -e 's/ address//' \
+    -e 's/: /=/'`
+
+ifconfig mce0 inet ${DHCP_IP}/${DHCP_Prefix} add up mtu 9000
+route add default ${DHCP_Gateway}
+# wait for it to come up
+ping -o ${DHCP_Gateway}
+
+## iscsi
+# extract iscsi target info
+eval `dmesg | sed -E \
+    -e '/^TGT0: Target /!d' \
+    -e 's/TGT0: Target /export ISCSI_/' \
+    -e 's/ address//' \
+    -e 's/: /=/'`
+iscsid -l 1 &
+# wait for it to come up
+ping -o ${ISCSI_IP}
+iscsictl -A -p ${ISCSI_IP} -t ${ISCSI_name}
+sleep 3
+
+# we should have a disk now
+iscsictl -Lv
+gpart show
+# clean up partition map and efi sometimes it gets messy
+gpart recover da0
+fsck_msdosfs -y /dev/gpt/efiboot0
+
+kenv vfs.root.mountfrom=zfs:zroot/ROOT/default
+# use this while dev and not reboot -r
+# /rescue/sh -i
+reboot -r
+
