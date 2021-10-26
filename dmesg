@@ -1,0 +1,528 @@
+# dmesg
+---<<BOOT>>---
+GDB: no debug ports present
+KDB: debugger backends: ddb
+KDB: current backend: ddb
+Copyright (c) 1992-2021 The FreeBSD Project.
+Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+	The Regents of the University of California. All rights reserved.
+FreeBSD is a registered trademark of The FreeBSD Foundation.
+FreeBSD 14.0-CURRENT main-n250146-a40784e6acc GENERIC arm64
+FreeBSD clang version 12.0.1 (git@github.com:llvm/llvm-project.git llvmorg-12.0.1-0-gfed41342a82f)
+WARNING: WITNESS option enabled, expect reduced performance.
+SRAT: Ignoring memory at addr 0x88300000
+VT(efifb): resolution 1024x768
+module firmware already present!
+module_register: cannot register tmpfs from kernel; already loaded from tmpfs.ko
+Module tmpfs failed to register: 17
+real memory  = 1098158690304 (1047285 MB)
+avail memory = 1070558240768 (1020963 MB)
+Starting CPU 1 (1a0000)
+Starting CPU 2 (140000)
+Starting CPU 3 (1c0000)
+Starting CPU 4 (100000)
+Starting CPU 5 (180000)
+Starting CPU 6 (160000)
+Starting CPU 7 (1e0000)
+Starting CPU 8 (a0000)
+Starting CPU 9 (220000)
+Starting CPU 10 (c0000)
+Starting CPU 11 (240000)
+Starting CPU 12 (80000)
+Starting CPU 13 (200000)
+Starting CPU 14 (e0000)
+Starting CPU 15 (260000)
+Starting CPU 16 (20000)
+Starting CPU 17 (40000)
+Starting CPU 18 (0)
+Starting CPU 19 (60000)
+Starting CPU 20 (130000)
+Starting CPU 21 (1b0000)
+Starting CPU 22 (150000)
+Starting CPU 23 (1d0000)
+Starting CPU 24 (110000)
+Starting CPU 25 (190000)
+Starting CPU 26 (170000)
+Starting CPU 27 (1f0000)
+Starting CPU 28 (b0000)
+Starting CPU 29 (230000)
+Starting CPU 30 (d0000)
+Starting CPU 31 (250000)
+Starting CPU 32 (90000)
+Starting CPU 33 (210000)
+Starting CPU 34 (f0000)
+Starting CPU 35 (270000)
+Starting CPU 36 (30000)
+Starting CPU 37 (50000)
+Starting CPU 38 (10000)
+Starting CPU 39 (70000)
+Starting CPU 40 (120100)
+Starting CPU 41 (1a0100)
+Starting CPU 42 (140100)
+Starting CPU 43 (1c0100)
+Starting CPU 44 (100100)
+Starting CPU 45 (180100)
+Starting CPU 46 (160100)
+Starting CPU 47 (1e0100)
+Starting CPU 48 (a0100)
+Starting CPU 49 (220100)
+Starting CPU 50 (c0100)
+Starting CPU 51 (240100)
+Starting CPU 52 (80100)
+Starting CPU 53 (200100)
+Starting CPU 54 (e0100)
+Starting CPU 55 (260100)
+Starting CPU 56 (20100)
+Starting CPU 57 (40100)
+Starting CPU 58 (100)
+Starting CPU 59 (60100)
+Starting CPU 60 (130100)
+Starting CPU 61 (1b0100)
+Starting CPU 62 (150100)
+Starting CPU 63 (1d0100)
+Starting CPU 64 (110100)
+Starting CPU 65 (190100)
+Starting CPU 66 (170100)
+Starting CPU 67 (1f0100)
+Starting CPU 68 (b0100)
+Starting CPU 69 (230100)
+Starting CPU 70 (d0100)
+Starting CPU 71 (250100)
+Starting CPU 72 (90100)
+Starting CPU 73 (210100)
+Starting CPU 74 (f0100)
+Starting CPU 75 (270100)
+Starting CPU 76 (30100)
+Starting CPU 77 (50100)
+Starting CPU 78 (10100)
+Starting CPU 79 (70100)
+Starting CPU 80 (100120000)
+Starting CPU 81 (1001a0000)
+Starting CPU 82 (100140000)
+Starting CPU 83 (1001c0000)
+Starting CPU 84 (100100000)
+Starting CPU 85 (100180000)
+Starting CPU 86 (100160000)
+Starting CPU 87 (1001e0000)
+Starting CPU 88 (1000a0000)
+Starting CPU 89 (100220000)
+Starting CPU 90 (1000c0000)
+Starting CPU 91 (100240000)
+Starting CPU 92 (100080000)
+Starting CPU 93 (100200000)
+Starting CPU 94 (1000e0000)
+Starting CPU 95 (100260000)
+Starting CPU 96 (100020000)
+Starting CPU 97 (100040000)
+Starting CPU 98 (100000000)
+Starting CPU 99 (100060000)
+Starting CPU 100 (100130000)
+Starting CPU 101 (1001b0000)
+Starting CPU 102 (100150000)
+Starting CPU 103 (1001d0000)
+Starting CPU 104 (100110000)
+Starting CPU 105 (100190000)
+Starting CPU 106 (100170000)
+Starting CPU 107 (1001f0000)
+Starting CPU 108 (1000b0000)
+Starting CPU 109 (100230000)
+Starting CPU 110 (1000d0000)
+Starting CPU 111 (100250000)
+Starting CPU 112 (100090000)
+Starting CPU 113 (100210000)
+Starting CPU 114 (1000f0000)
+Starting CPU 115 (100270000)
+Starting CPU 116 (100030000)
+Starting CPU 117 (100050000)
+Starting CPU 118 (100010000)
+Starting CPU 119 (100070000)
+Starting CPU 120 (100120100)
+Starting CPU 121 (1001a0100)
+Starting CPU 122 (100140100)
+Starting CPU 123 (1001c0100)
+Starting CPU 124 (100100100)
+Starting CPU 125 (100180100)
+Starting CPU 126 (100160100)
+Starting CPU 127 (1001e0100)
+Starting CPU 128 (1000a0100)
+Starting CPU 129 (100220100)
+Starting CPU 130 (1000c0100)
+Starting CPU 131 (100240100)
+Starting CPU 132 (100080100)
+Starting CPU 133 (100200100)
+Starting CPU 134 (1000e0100)
+Starting CPU 135 (100260100)
+Starting CPU 136 (100020100)
+Starting CPU 137 (100040100)
+Starting CPU 138 (100000100)
+Starting CPU 139 (100060100)
+Starting CPU 140 (100130100)
+Starting CPU 141 (1001b0100)
+Starting CPU 142 (100150100)
+Starting CPU 143 (1001d0100)
+Starting CPU 144 (100110100)
+Starting CPU 145 (100190100)
+Starting CPU 146 (100170100)
+Starting CPU 147 (1001f0100)
+Starting CPU 148 (1000b0100)
+Starting CPU 149 (100230100)
+Starting CPU 150 (1000d0100)
+Starting CPU 151 (100250100)
+Starting CPU 152 (100090100)
+Starting CPU 153 (100210100)
+Starting CPU 154 (1000f0100)
+Starting CPU 155 (100270100)
+Starting CPU 156 (100030100)
+Starting CPU 157 (100050100)
+Starting CPU 158 (100010100)
+Starting CPU 159 (100070100)
+FreeBSD/SMP: Multiprocessor System Detected: 160 CPUs
+arc4random: WARNING: initial seeding bypassed the cryptographic random device because it was not yet seeded and the knob 'bypass_before_seeding' was enabled.
+ACPI: IORT: Unused ITS block, ID 11
+ERROR: Multiple Proximity Domains map to the same NUMA domain 0!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 0!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 0!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 0!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 0!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 1!
+ACPI: IORT: ITS block 11 in SRAT not found in IORT!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 1!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 1!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 1!
+ERROR: Multiple Proximity Domains map to the same NUMA domain 1!
+random: entropy device external interface
+MAP 88300000 mode 2 pages 256
+MAP 92000000 mode 2 pages 2624
+MAP bffb0000 mode 2 pages 32
+MAP bffe0000 mode 2 pages 32
+MAP 83fafb20000 mode 2 pages 31904
+MAP 83fb7980000 mode 2 pages 1760
+MAP 100000540000 mode 0 pages 16
+MAP 100002600000 mode 0 pages 16
+MAP 1000026d0000 mode 0 pages 16
+MAP 100002750000 mode 0 pages 16
+MAP 500000540000 mode 0 pages 16
+kbd0 at kbdmux0
+acpi0: <ORACLE A1_2C>
+acpi0: Sleep Button (fixed)
+acpi0: Could not update all GPEs: AE_NOT_CONFIGURED
+psci0: <ARM Power State Co-ordination Interface Driver> on acpi0
+gic0: <ARM Generic Interrupt Controller v3.0> iomem 0x100100000000-0x10010001ffff,0x100100140000-0x10010113ffff,0x500100140000-0x50010113ffff on acpi0
+its0: <ARM GIC Interrupt Translation Service> numa-domain 0 on gic0
+its1: <ARM GIC Interrupt Translation Service> numa-domain 0 on gic0
+its2: <ARM GIC Interrupt Translation Service> numa-domain 0 on gic0
+its3: <ARM GIC Interrupt Translation Service> numa-domain 0 on gic0
+its4: <ARM GIC Interrupt Translation Service> numa-domain 0 on gic0
+its5: <ARM GIC Interrupt Translation Service> numa-domain 0 on gic0
+its6: <ARM GIC Interrupt Translation Service> numa-domain 1 on gic0
+its7: <ARM GIC Interrupt Translation Service> on gic0
+its8: <ARM GIC Interrupt Translation Service> numa-domain 1 on gic0
+its9: <ARM GIC Interrupt Translation Service> numa-domain 1 on gic0
+its10: <ARM GIC Interrupt Translation Service> numa-domain 1 on gic0
+its11: <ARM GIC Interrupt Translation Service> numa-domain 1 on gic0
+generic_timer0: <ARM Generic Timer> irq 153,154,155 on acpi0
+Timecounter "ARM MPCore Timecounter" frequency 25000000 Hz quality 1000
+Event timer "ARM MPCore Eventtimer" frequency 25000000 Hz quality 1000
+efirtc0: <EFI Realtime Clock>
+efirtc0: registered as a time-of-day clock, resolution 1.000000s
+acpi_button0: <Power Button> on acpi0
+uart0: <PrimeCell UART (PL011)> iomem 0x100002600000-0x100002600fff irq 5 on acpi0
+uart0: console (115200,n,8,1)
+uart1: <PrimeCell UART (PL011)> iomem 0x100002620000-0x100002620fff irq 6 on acpi0
+apei0: <ACPI Platform Error Interface> on acpi0
+apei0: Can't allocate ack resource.
+apei0: Can't allocate ack resource.
+apei0: Can't allocate ack resource.
+apei0: Can't allocate ack resource.
+apei0: Can't allocate ack resource.
+apei0: Can't allocate ack resource.
+pcib0: <Generic PCI host controller> numa-domain 0 on acpi0
+pci0: <PCI bus> numa-domain 0 on pcib0
+pcib1: <PCI-PCI bridge> at device 1.0 numa-domain 0 on pci0
+pci1: <PCI bus> numa-domain 0 on pcib1
+pcib2: <PCI-PCI bridge> at device 3.0 numa-domain 0 on pci0
+pci2: <PCI bus> numa-domain 0 on pcib2
+pcib3: <Generic PCI host controller> numa-domain 0 on acpi0
+pci3: <PCI bus> numa-domain 0 on pcib3
+pcib4: <PCI-PCI bridge> at device 1.0 numa-domain 0 on pci3
+pci4: <PCI bus> numa-domain 0 on pcib4
+pcib5: <PCI-PCI bridge> at device 3.0 numa-domain 0 on pci3
+pci5: <PCI bus> numa-domain 0 on pcib5
+pci5: <network, ethernet> at device 0.0 (no driver attached)
+pci5: <network, ethernet> at device 0.1 (no driver attached)
+pcib6: <Generic PCI host controller> numa-domain 0 on acpi0
+pci6: <PCI bus> numa-domain 0 on pcib6
+pcib7: <PCI-PCI bridge> at device 1.0 numa-domain 0 on pci6
+pci7: <PCI bus> numa-domain 0 on pcib7
+pcib8: <PCI-PCI bridge> at device 5.0 numa-domain 0 on pci6
+pci8: <PCI bus> numa-domain 0 on pcib8
+pcib9: <Generic PCI host controller> numa-domain 0 on acpi0
+pci9: <PCI bus> numa-domain 0 on pcib9
+pcib10: <PCI-PCI bridge> at device 1.0 numa-domain 0 on pci9
+pci10: <PCI bus> numa-domain 0 on pcib10
+pcib11: <PCI-PCI bridge> at device 5.0 numa-domain 0 on pci9
+pci11: <PCI bus> numa-domain 0 on pcib11
+pcib12: <Generic PCI host controller> numa-domain 0 on acpi0
+pci12: <PCI bus> numa-domain 0 on pcib12
+pcib13: <PCI-PCI bridge> at device 1.0 numa-domain 0 on pci12
+pci13: <PCI bus> numa-domain 0 on pcib13
+pcib14: <PCI-PCI bridge> at device 0.0 numa-domain 0 on pci13
+pci14: <PCI bus> numa-domain 0 on pcib14
+vgapci0: <VGA-compatible display> mem 0x10000000-0x10ffffff,0x11810000-0x11813fff,0x11000000-0x117fffff at device 0.0 numa-domain 0 on pci14
+pcib15: <PCI-PCI bridge> at device 3.0 numa-domain 0 on pci12
+pci15: <PCI bus> numa-domain 0 on pcib15
+pcib16: <PCI-PCI bridge> at device 5.0 numa-domain 0 on pci12
+pci16: <PCI bus> numa-domain 0 on pcib16
+pcib17: <Generic PCI host controller> numa-domain 0 on acpi0
+pci17: <PCI bus> numa-domain 0 on pcib17
+pcib18: <PCI-PCI bridge> at device 1.0 numa-domain 0 on pci17
+pci18: <PCI bus> numa-domain 0 on pcib18
+pcib19: <PCI-PCI bridge> at device 5.0 numa-domain 0 on pci17
+pci19: <PCI bus> numa-domain 0 on pcib19
+pcib20: <PCI-PCI bridge> at device 7.0 numa-domain 0 on pci17
+pci20: <PCI bus> numa-domain 0 on pcib20
+pcib21: <Generic PCI host controller> numa-domain 1 on acpi0
+pci21: <PCI bus> numa-domain 1 on pcib21
+pcib22: <PCI-PCI bridge> at device 1.0 numa-domain 1 on pci21
+pci22: <PCI bus> numa-domain 1 on pcib22
+pcib23: <PCI-PCI bridge> at device 3.0 numa-domain 1 on pci21
+pci23: <PCI bus> numa-domain 1 on pcib23
+pcib24: <Generic PCI host controller> numa-domain 1 on acpi0
+pci24: <PCI bus> numa-domain 1 on pcib24
+pcib25: <PCI-PCI bridge> at device 1.0 numa-domain 1 on pci24
+pci25: <PCI bus> numa-domain 1 on pcib25
+pcib26: <PCI-PCI bridge> at device 5.0 numa-domain 1 on pci24
+pci26: <PCI bus> numa-domain 1 on pcib26
+pcib27: <Generic PCI host controller> numa-domain 1 on acpi0
+pci27: <PCI bus> numa-domain 1 on pcib27
+pcib28: <PCI-PCI bridge> at device 1.0 numa-domain 1 on pci27
+pci28: <PCI bus> numa-domain 1 on pcib28
+pcib29: <PCI-PCI bridge> at device 5.0 numa-domain 1 on pci27
+pci29: <PCI bus> numa-domain 1 on pcib29
+pcib30: <Generic PCI host controller> numa-domain 1 on acpi0
+pci30: <PCI bus> numa-domain 1 on pcib30
+pcib31: <PCI-PCI bridge> at device 1.0 numa-domain 1 on pci30
+pci31: <PCI bus> numa-domain 1 on pcib31
+pcib32: <PCI-PCI bridge> at device 5.0 numa-domain 1 on pci30
+pci32: <PCI bus> numa-domain 1 on pcib32
+pcib33: <Generic PCI host controller> numa-domain 1 on acpi0
+pci33: <PCI bus> numa-domain 1 on pcib33
+pcib34: <PCI-PCI bridge> at device 1.0 numa-domain 1 on pci33
+pci34: <PCI bus> numa-domain 1 on pcib34
+pcib35: <PCI-PCI bridge> at device 2.0 numa-domain 1 on pci33
+pci35: <PCI bus> numa-domain 1 on pcib35
+pcib36: <PCI-PCI bridge> at device 3.0 numa-domain 1 on pci33
+pci36: <PCI bus> numa-domain 1 on pcib36
+pcib37: <PCI-PCI bridge> at device 4.0 numa-domain 1 on pci33
+pci37: <PCI bus> numa-domain 1 on pcib37
+pcib38: <PCI-PCI bridge> at device 5.0 numa-domain 1 on pci33
+pci38: <PCI bus> numa-domain 1 on pcib38
+cpu0: <ACPI CPU> on acpi0
+armv8crypto0: <AES-CBC,AES-XTS,AES-GCM>
+IS: Initiator name: iqn.2015-02.oracle.boot
+NIC0: IP address: 10.0.0.246
+NIC0: Prefix: 24
+NIC0: Gateway: 10.0.0.1
+NIC0: MAC address: b8:ce:f6:8c:30:b4
+TGT0: Target IP address: 169.254.0.2
+TGT0: Target Port: 3260
+TGT0: Target LUN: 100
+TGT0: Target name: iqn.2015-02.oracle.boot:uefi
+module_register_init: MOD_LOAD (tmpfs, 0xffff000000551414, 0xffff000000acc680) error 17
+Timecounters tick every 1.000 msec
+ZFS filesystem version: 5
+ZFS storage pool version: features support (5000)
+usb_needs_explore_all: no devclass
+md0: Preloaded image </mfsroot> 97091584 bytes at 0xffff0000012f19e8
+mlx5_core0: <mlx5_core> mem 0x3c0002000000-0x3c0003ffffff at device 0.0 numa-domain 0 on pci5
+mlx5: Mellanox Core driver 3.7.0 (July 2021)mlx5_core0: INFO: mlx5_port_module_event:710:(pid 12): Module 0, status: plugged and enabled
+mlx5_core: INFO: (mlx5_core0): E-Switch: Total vports 128, l2 table size(65536), per vport: max uc(1024) max mc(16384)
+mlx5_core1: <mlx5_core> mem 0x3c0000000000-0x3c0001ffffff at device 0.1 numa-domain 0 on pci5
+mlx5_core1: INFO: mlx5_port_module_event:710:(pid 12): Module 1, status: plugged and enabled
+mlx5_core: INFO: (mlx5_core1): E-Switch: Total vports 128, l2 table size(65536), per vport: max uc(1024) max mc(16384)
+mce0: Ethernet address: b8:ce:f6:8c:30:b4
+mce0: link state changed to DOWN
+mce1: Ethernet address: b8:ce:f6:8c:30:b5
+mce1: link state changed to DOWN
+sysctl_unregister_oid: failed(22) to unregister sysctl(tmpfs)
+CPU  0: ARM Neoverse-N1 r3p1 affinity:  0 18  0  0
+                   Cache Type = <64 byte D-cacheline,64 byte I-cacheline,PIPT ICache,64 byte ERG,64 byte CWG,IDC>
+ Instruction Set Attributes 0 = <DP,RDM,Atomic,CRC32,SHA2,SHA1,AES+PMULL>
+ Instruction Set Attributes 1 = <RCPC-8.3,DCPoP>
+         Processor Features 0 = <CSV3,CSV2,RAS,GIC,AdvSIMD+HP,FP+HP,EL3,EL2,EL1,EL0 32>
+Trying to mount root from ufs:/dev/md0 []...
+         Processor Features 1 = <PSTATE.SSBS MSR>
+      Memory Model Features 0 = <TGran4,TGran64,TGran16,SNSMem,BigEnd,16bit ASID,256TB PA>
+      Memory Model Features 1 = <XNX,PAN+ATS1E1,LO,HPD+TTPBHA,VH,16bit VMID,HAF+DS>
+      Memory Model Features 2 = <EVT-8.2,32bit CCIDX,48bit VA,UAO,CnP>
+             Debug Features 0 = <DoubleLock,SPE,2 CTX BKPTs,4 Watchpoints,6 Breakpoints,PMUv3 v8.1,Debugv8.2>
+             Debug Features 1 = <>
+         Auxiliary Features 0 = <>
+         Auxiliary Features 1 = <>
+AArch32 Instruction Set Attributes 5 = <RDM,CRC32,SHA2,SHA1,AES+VMULL,SEVL>
+AArch32 Media and VFP Features 0 = <FPRound,FPSqrt,FPDivide,DP VFPv3+v4,SP VFPv3+v4,AdvSIMD>
+AArch32 Media and VFP Features 1 = <SIMDFMAC,FPHP Arith,SIMDHP Arith,SIMDSP,SIMDInt,SIMDLS,FPDNaN,FPFtZ>
+CPU  1: ARM Neoverse-N1 r3p1 affinity:  0 26  0  0
+CPU  2: ARM Neoverse-N1 r3p1 affinity:  0 20  0  0
+CPU  3: ARM Neoverse-N1 r3p1 affinity:  0 28  0  0
+CPU  4: ARM Neoverse-N1 r3p1 affinity:  0 16  0  0
+CPU  5: ARM Neoverse-N1 r3p1 affinity:  0 24  0  0
+CPU  6: ARM Neoverse-N1 r3p1 affinity:  0 22  0  0
+CPU  7: ARM Neoverse-N1 r3p1 affinity:  0 30  0  0
+CPU  8: ARM Neoverse-N1 r3p1 affinity:  0 10  0  0
+CPU  9: ARM Neoverse-N1 r3p1 affinity:  0 34  0  0
+CPU 10: ARM Neoverse-N1 r3p1 affinity:  0 12  0  0
+CPU 11: ARM Neoverse-N1 r3p1 affinity:  0 36  0  0
+CPU 12: ARM Neoverse-N1 r3p1 affinity:  0  8  0  0
+CPU 13: ARM Neoverse-N1 r3p1 affinity:  0 32  0  0
+CPU 14: ARM Neoverse-N1 r3p1 affinity:  0 14  0  0
+CPU 15: ARM Neoverse-N1 r3p1 affinity:  0 38  0  0
+CPU 16: ARM Neoverse-N1 r3p1 affinity:  0  2  0  0
+CPU 17: ARM Neoverse-N1 r3p1 affinity:  0  4  0  0
+CPU 18: ARM Neoverse-N1 r3p1 affinity:  0  0  0  0
+CPU 19: ARM Neoverse-N1 r3p1 affinity:  0  6  0  0
+CPU 20: ARM Neoverse-N1 r3p1 affinity:  0 19  0  0
+CPU 21: ARM Neoverse-N1 r3p1 affinity:  0 27  0  0
+CPU 22: ARM Neoverse-N1 r3p1 affinity:  0 21  0  0
+CPU 23: ARM Neoverse-N1 r3p1 affinity:  0 29  0  0
+CPU 24: ARM Neoverse-N1 r3p1 affinity:  0 17  0  0
+CPU 25: ARM Neoverse-N1 r3p1 affinity:  0 25  0  0
+CPU 26: ARM Neoverse-N1 r3p1 affinity:  0 23  0  0
+CPU 27: ARM Neoverse-N1 r3p1 affinity:  0 31  0  0
+CPU 28: ARM Neoverse-N1 r3p1 affinity:  0 11  0  0
+CPU 29: ARM Neoverse-N1 r3p1 affinity:  0 35  0  0
+CPU 30: ARM Neoverse-N1 r3p1 affinity:  0 13  0  0
+CPU 31: ARM Neoverse-N1 r3p1 affinity:  0 37  0  0
+CPU 32: ARM Neoverse-N1 r3p1 affinity:  0  9  0  0
+CPU 33: ARM Neoverse-N1 r3p1 affinity:  0 33  0  0
+CPU 34: ARM Neoverse-N1 r3p1 affinity:  0 15  0  0
+CPU 35: ARM Neoverse-N1 r3p1 affinity:  0 39  0  0
+CPU 36: ARM Neoverse-N1 r3p1 affinity:  0  3  0  0
+CPU 37: ARM Neoverse-N1 r3p1 affinity:  0  5  0  0
+CPU 38: ARM Neoverse-N1 r3p1 affinity:  0  1  0  0
+CPU 39: ARM Neoverse-N1 r3p1 affinity:  0  7  0  0
+CPU 40: ARM Neoverse-N1 r3p1 affinity:  0 18  1  0
+CPU 41: ARM Neoverse-N1 r3p1 affinity:  0 26  1  0
+CPU 42: ARM Neoverse-N1 r3p1 affinity:  0 20  1  0
+CPU 43: ARM Neoverse-N1 r3p1 affinity:  0 28  1  0
+CPU 44: ARM Neoverse-N1 r3p1 affinity:  0 16  1  0
+CPU 45: ARM Neoverse-N1 r3p1 affinity:  0 24  1  0
+CPU 46: ARM Neoverse-N1 r3p1 affinity:  0 22  1  0
+CPU 47: ARM Neoverse-N1 r3p1 affinity:  0 30  1  0
+CPU 48: ARM Neoverse-N1 r3p1 affinity:  0 10  1  0
+CPU 49: ARM Neoverse-N1 r3p1 affinity:  0 34  1  0
+CPU 50: ARM Neoverse-N1 r3p1 affinity:  0 12  1  0
+CPU 51: ARM Neoverse-N1 r3p1 affinity:  0 36  1  0
+CPU 52: ARM Neoverse-N1 r3p1 affinity:  0  8  1  0
+CPU 53: ARM Neoverse-N1 r3p1 affinity:  0 32  1  0
+CPU 54: ARM Neoverse-N1 r3p1 affinity:  0 14  1  0
+CPU 55: ARM Neoverse-N1 r3p1 affinity:  0 38  1  0
+CPU 56: ARM Neoverse-N1 r3p1 affinity:  0  2  1  0
+CPU 57: ARM Neoverse-N1 r3p1 affinity:  0  4  1  0
+CPU 58: ARM Neoverse-N1 r3p1 affinity:  0  0  1  0
+CPU 59: ARM Neoverse-N1 r3p1 affinity:  0  6  1  0
+CPU 60: ARM Neoverse-N1 r3p1 affinity:  0 19  1  0
+CPU 61: ARM Neoverse-N1 r3p1 affinity:  0 27  1  0
+CPU 62: ARM Neoverse-N1 r3p1 affinity:  0 21  1  0
+CPU 63: ARM Neoverse-N1 r3p1 affinity:  0 29  1  0
+CPU 64: ARM Neoverse-N1 r3p1 affinity:  0 17  1  0
+CPU 65: ARM Neoverse-N1 r3p1 affinity:  0 25  1  0
+CPU 66: ARM Neoverse-N1 r3p1 affinity:  0 23  1  0
+CPU 67: ARM Neoverse-N1 r3p1 affinity:  0 31  1  0
+CPU 68: ARM Neoverse-N1 r3p1 affinity:  0 11  1  0
+CPU 69: ARM Neoverse-N1 r3p1 affinity:  0 35  1  0
+CPU 70: ARM Neoverse-N1 r3p1 affinity:  0 13  1  0
+CPU 71: ARM Neoverse-N1 r3p1 affinity:  0 37  1  0
+CPU 72: ARM Neoverse-N1 r3p1 affinity:  0  9  1  0
+CPU 73: ARM Neoverse-N1 r3p1 affinity:  0 33  1  0
+CPU 74: ARM Neoverse-N1 r3p1 affinity:  0 15  1  0
+CPU 75: ARM Neoverse-N1 r3p1 affinity:  0 39  1  0
+CPU 76: ARM Neoverse-N1 r3p1 affinity:  0  3  1  0
+CPU 77: ARM Neoverse-N1 r3p1 affinity:  0  5  1  0
+CPU 78: ARM Neoverse-N1 r3p1 affinity:  0  1  1  0
+CPU 79: ARM Neoverse-N1 r3p1 affinity:  0  7  1  0
+CPU 80: ARM Neoverse-N1 r3p1 affinity:  1 18  0  0
+CPU 81: ARM Neoverse-N1 r3p1 affinity:  1 26  0  0
+CPU 82: ARM Neoverse-N1 r3p1 affinity:  1 20  0  0
+CPU 83: ARM Neoverse-N1 r3p1 affinity:  1 28  0  0
+CPU 84: ARM Neoverse-N1 r3p1 affinity:  1 16  0  0
+CPU 85: ARM Neoverse-N1 r3p1 affinity:  1 24  0  0
+CPU 86: ARM Neoverse-N1 r3p1 affinity:  1 22  0  0
+CPU 87: ARM Neoverse-N1 r3p1 affinity:  1 30  0  0
+CPU 88: ARM Neoverse-N1 r3p1 affinity:  1 10  0  0
+CPU 89: ARM Neoverse-N1 r3p1 affinity:  1 34  0  0
+CPU 90: ARM Neoverse-N1 r3p1 affinity:  1 12  0  0
+CPU 91: ARM Neoverse-N1 r3p1 affinity:  1 36  0  0
+CPU 92: ARM Neoverse-N1 r3p1 affinity:  1  8  0  0
+CPU 93: ARM Neoverse-N1 r3p1 affinity:  1 32  0  0
+CPU 94: ARM Neoverse-N1 r3p1 affinity:  1 14  0  0
+CPU 95: ARM Neoverse-N1 r3p1 affinity:  1 38  0  0
+CPU 96: ARM Neoverse-N1 r3p1 affinity:  1  2  0  0
+CPU 97: ARM Neoverse-N1 r3p1 affinity:  1  4  0  0
+CPU 98: ARM Neoverse-N1 r3p1 affinity:  1  0  0  0
+CPU 99: ARM Neoverse-N1 r3p1 affinity:  1  6  0  0
+CPU100: ARM Neoverse-N1 r3p1 affinity:  1 19  0  0
+CPU101: ARM Neoverse-N1 r3p1 affinity:  1 27  0  0
+CPU102: ARM Neoverse-N1 r3p1 affinity:  1 21  0  0
+CPU103: ARM Neoverse-N1 r3p1 affinity:  1 29  0  0
+CPU104: ARM Neoverse-N1 r3p1 affinity:  1 17  0  0
+CPU105: ARM Neoverse-N1 r3p1 affinity:  1 25  0  0
+CPU106: ARM Neoverse-N1 r3p1 affinity:  1 23  0  0
+CPU107: ARM Neoverse-N1 r3p1 affinity:  1 31  0  0
+CPU108: ARM Neoverse-N1 r3p1 affinity:  1 11  0  0
+CPU109: ARM Neoverse-N1 r3p1 affinity:  1 35  0  0
+CPU110: ARM Neoverse-N1 r3p1 affinity:  1 13  0  0
+CPU111: ARM Neoverse-N1 r3p1 affinity:  1 37  0  0
+CPU112: ARM Neoverse-N1 r3p1 affinity:  1  9  0  0
+CPU113: ARM Neoverse-N1 r3p1 affinity:  1 33  0  0
+CPU114: ARM Neoverse-N1 r3p1 affinity:  1 15  0  0
+CPU115: ARM Neoverse-N1 r3p1 affinity:  1 39  0  0
+CPU116: ARM Neoverse-N1 r3p1 affinity:  1  3  0  0
+CPU117: ARM Neoverse-N1 r3p1 affinity:  1  5  0  0
+CPU118: ARM Neoverse-N1 r3p1 affinity:  1  1  0  0
+CPU119: ARM Neoverse-N1 r3p1 affinity:  1  7  0  0
+CPU120: ARM Neoverse-N1 r3p1 affinity:  1 18  1  0
+CPU121: ARM Neoverse-N1 r3p1 affinity:  1 26  1  0
+CPU122: ARM Neoverse-N1 r3p1 affinity:  1 20  1  0
+CPU123: ARM Neoverse-N1 r3p1 affinity:  1 28  1  0
+CPU124: ARM Neoverse-N1 r3p1 affinity:  1 16  1  0
+CPU125: ARM Neoverse-N1 r3p1 affinity:  1 24  1  0
+CPU126: ARM Neoverse-N1 r3p1 affinity:  1 22  1  0
+CPU127: ARM Neoverse-N1 r3p1 affinity:  1 30  1  0
+CPU128: ARM Neoverse-N1 r3p1 affinity:  1 10  1  0
+CPU129: ARM Neoverse-N1 r3p1 affinity:  1 34  1  0
+CPU130: ARM Neoverse-N1 r3p1 affinity:  1 12  1  0
+CPU131: ARM Neoverse-N1 r3p1 affinity:  1 36  1  0
+CPU132: ARM Neoverse-N1 r3p1 affinity:  1  8  1  0
+CPU133: ARM Neoverse-N1 r3p1 affinity:  1 32  1  0
+CPU134: ARM Neoverse-N1 r3p1 affinity:  1 14  1  0
+CPU135: ARM Neoverse-N1 r3p1 affinity:  1 38  1  0
+CPU136: ARM Neoverse-N1 r3p1 affinity:  1  2  1  0
+CPU137: ARM Neoverse-N1 r3p1 affinity:  1  4  1  0
+CPU138: ARM Neoverse-N1 r3p1 affinity:  1  0  1  0
+CPU139: ARM Neoverse-N1 r3p1 affinity:  1  6  1  0
+CPU140: ARM Neoverse-N1 r3p1 affinity:  1 19  1  0
+CPU141: ARM Neoverse-N1 r3p1 affinity:  1 27  1  0
+CPU142: ARM Neoverse-N1 r3p1 affinity:  1 21  1  0
+CPU143: ARM Neoverse-N1 r3p1 affinity:  1 29  1  0
+CPU144: ARM Neoverse-N1 r3p1 affinity:  1 17  1  0
+CPU145: ARM Neoverse-N1 r3p1 affinity:  1 25  1  0
+CPU146: ARM Neoverse-N1 r3p1 affinity:  1 23  1  0
+CPU147: ARM Neoverse-N1 r3p1 affinity:  1 31  1  0
+CPU148: ARM Neoverse-N1 r3p1 affinity:  1 11  1  0
+CPU149: ARM Neoverse-N1 r3p1 affinity:  1 35  1  0
+CPU150: ARM Neoverse-N1 r3p1 affinity:  1 13  1  0
+CPU151: ARM Neoverse-N1 r3p1 affinity:  1 37  1  0
+CPU152: ARM Neoverse-N1 r3p1 affinity:  1  9  1  0
+CPU153: ARM Neoverse-N1 r3p1 affinity:  1 33  1  0
+CPU154: ARM Neoverse-N1 r3p1 affinity:  1 15  1  0
+CPU155: ARM Neoverse-N1 r3p1 affinity:  1 39  1  0
+CPU156: ARM Neoverse-N1 r3p1 affinity:  1  3  1  0
+CPU157: ARM Neoverse-N1 r3p1 affinity:  1  5  1  0
+CPU158: ARM Neoverse-N1 r3p1 affinity:  1  1  1  0
+CPU159: ARM Neoverse-N1 r3p1 affinity:  1  7  1  0
+Release APs...done
+Dual Console: Serial Primary, Video Secondary
+random: unblocking device.
+WARNING: WITNESS option enabled, expect reduced performance.
+# 
