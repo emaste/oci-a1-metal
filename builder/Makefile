@@ -58,8 +58,8 @@ mnt/boot: mount extract
 	cp -r extract/boot mnt/boot
 
 mfsroot: extract
-	mkdir -p mfs/dev mfs/etc/ssh mfs/tmp mfs/var/run/dhclient mfs/var/tmp mfs/sbin
-	tar  -C extract -c -f - rescue boot/kernel | tar -C mfs/ -x -v -f -
+	mkdir -p mfs/dev mfs/etc/ssh mfs/tmp mfs/var/run/dhclient mfs/var/tmp mfs/sbin mfs/mnt
+	tar  -C extract -c -f - rescue boot/kernel/tmpfs.ko | tar -C mfs/ -x -v -f -
 	# help dhclient a bit further
 	echo 'nameserver 169.254.169.254' > mfs/etc/resolv.conf
 	echo 'tmpfs	/tmp	tmpfs	rw,mode=01777	0	0' > mfs/etc/fstab
