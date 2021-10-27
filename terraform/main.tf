@@ -53,7 +53,7 @@ resource "oci_core_instance" "leviathan" {
   shape = "BM.Standard.A1.160"
   source_details {
     source_type = "image"
-    source_id = "ocid1.image.oc1.eu-amsterdam-1.aaaaaaaa4y2xtzwm27a7x4o6lxtlkiin3iodyup2tffja5ujvqo3nxf5hkda"
+    source_id = "ocid1.image.oc1.eu-amsterdam-1.aaaaaaaao4r5sq2jinn7chcuv3u3b4ch6jukooxxwxp45myrjhufnzxcakya"
   }
 }
 
