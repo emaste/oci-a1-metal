@@ -1,3 +1,4 @@
+*.fat
 *.qcow*
 efi.*
 efifat
